@@ -1,0 +1,10 @@
+        <section>
+            <h1><?php echo $judul ?></h1>
+            <p>
+            Perjalanan Bina Sarana Informatika dimulai pada tanggal 3 Maret 1988 dengan didirikannya Lembaga Pendidikan Komputer Bina Sarana Informatika oleh Mayjen (Purn) HR. Harsoyo. Kantor pusat BSI pindah ke Jakarta pada Oktober 1989 sekaligus meresmikan cabang ke-2 LPK BSI dan dikuti dengan cabang-cabang lain di Jakarta demi untuk menjangkau lebih banyak peserta didik.
+Pada tahun 1990 BSI mendirikan Politeknik BSI dengan jurusan Akuntansi Komputer dengan angkatan pertamanya pada tahun akademik 1990/1991. Program studi Manajemen Informatika, Teknik Komputer, Sekretaris dan Manajemen Perkantoran menyusul dibuka pada tahun akademik 1992/1993 dibarengi dengan perubahan nama dari Politeknik BSI menjadi Program Satu Tahun Bina Sarana Informatika.
+Tahun ajaran 1994 BSI mendirikan Akademi Manajemen Informatika & Komputer di jalan RS. Fatmawati Jakarta Selatan (sekarang menjadi Universitas Bina Sarana Informatika Kampus Fatmawati). AMIK BSI melakukan kegiatan pertamanya pada tahun akademik 1994/1995 setelah izin operasi dikeluarkan. BSI kembali mendirikan Akademi Sekretaris & Manajeman pada tahun akandemik 2000/2001 dengan dua program studi yaitu Sekretaris dan Manajemen Adminsitrasi.
+BSI melebarkan sayap dengan mendirikan Akedemi Bahasa Asing dan Akademi Komunikasi pada tahun akademik 2002/2003, yang membuat BSI tidak hanya menjadi kampus yang mengajarkan bidang komputer saja. Selain dua akademi tersebut BSI juga mendirikan Akademi Pariwisata dan Akademi Manajemen Keuangan. Sehingga BSI memiliki beberapa Akedemi diantaranya Akademi Manajemen Informatika & Komputer (AMIK), Akademi Sekretaris & Manajemen (ASM), Akademi Bahasa Asing (ABA), Akademi Komunikasi (AKOM), Akademi Pariwisata (AKPAR) dan Akademi Manajemen dan Keuangan (AMK).
+Akademi BSI resmi bertranformasi menjadi Universitas Bina Sarana Informatika pada 16 September 2018 yang ditandai dengan diserahkanya Surat Keputusan Kementrian Riset Teknologi dan Perguruan Tinggi kepada pihak kampus di BSI Convention Center.
+            </p>
+        </section>
