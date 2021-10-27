@@ -18,13 +18,15 @@ class Crud extends CI_Controller{
     function tambah_aksi ()
     {
         $nama=$this->input->post('nama');
+        $nim=$this->input->post('nim');
+        $kelas=$this->input->post('kelas');
         $alamat=$this->input->post('alamat');
-        $pekerjaan=$this->input->post('pekerjaan');
 
         $data=array(
             'nama'=>$nama,
-            'alamat'=>$alamat,
-            'pekerjaan'=>$pekerjaan
+            'nim'=>$nim,
+            'kelas'=>$kelas,
+            'alamat'=>$alamat
         );
         $this->m_data->input_data($data, 'user');
         redirect('crud/index');
@@ -42,13 +44,15 @@ class Crud extends CI_Controller{
     function update(){
         $id=$this->input->post('id');
         $nama=$this->input->post('nama');
+        $nim=$this->input->post('nim');
+        $kelas=$this->input->post('kelas');
         $alamat=$this->input->post('alamat');
-        $pekerjaan=$this->input->post('pekerjaan');
 
         $data=array(
             'nama'=>$nama,
-            'alamat'=>$alamat,
-            'pekerjaan'=>$pekerjaan
+            'nim'=>$nim,
+            'kelas'=>$kelas,
+            'alamat'=>$alamat
         );
         $where=array('id'=>$id);
         $this->m_data->update_data($where, $data,'user');

@@ -1,17 +1,19 @@
 <html>
 <head>
-        <title>Belajar CRUD</title>
+        <title>Pra UTS</title>
 </head>
 <body>
-    <center><h1>Belajar CRUD dengan CodeIgniter</h1>
+    <center><h1>PRA UTS</h1>
+            <h3>Membuat CRUD dengan CodeIgniter</h3>
     </center>
     <center><?php echo anchor('crud/tambah' , 'Tambah Data'); ?></center>
     <table style="margin: 20px auto;" border="1">
         <tr>
             <th>No</th>
             <th>Nama</th>
+            <th>NIM</th>
+            <th>Kelas</th>
             <th>Alamat</th>
-            <th>Pekerjaan</th>
             <th>Aksi</th>
         </tr>
         <?php
@@ -20,11 +22,12 @@
         ?>
         <tr>
             <td><?php echo $no++ ?></td>
+            <td><?php echo $u->nim ?></td>
             <td><?php echo $u->nama ?></td>
+            <td><?php echo $u->kelas ?></td>
             <td><?php echo $u->alamat ?></td>
-            <td><?php echo $u->pekerjaan ?></td>
-            <td><?php echo anchor('crud/edit/' . $u->id, 'Edit '); ?>
-                <?php echo anchor('crud/hapus/' . $u->id, 'Hapus'); ?></td>
+            <td><?php echo anchor('crud/edit/'  . $u-> id , 'Edit '); ?>
+                <?php echo anchor('crud/hapus/'  . $u-> id , 'Hapus'); ?></td>
         </tr>
         <?php } ?>
     </table>
