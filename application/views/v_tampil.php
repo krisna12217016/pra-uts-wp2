@@ -13,8 +13,8 @@
     <table style="margin: 20px auto;" border="1">
         <tr>
             <th>No</th>
-            <th>Nama</th>
             <th>NIM</th>
+            <th>Nama</th>
             <th>Kelas</th>
             <th>Alamat</th>
             <th>Aksi</th>

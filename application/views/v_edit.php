@@ -16,13 +16,13 @@
             <table>
                 <tr>
                     <input type="hidden" name="id" value="<?php echo $u->id ?>">
-                    <td>Nama</td>
+                    <td>NIM</td>
                     <td>:</td>
-                    <td><input type="text" name="nama" id="" value="<?php echo $u->nama?>"></td>
+                    <td><input type="text" name="nim" id="" value="<?php echo $u->nim?>"></td>
                 </tr>
-                <td>NIM</td>
+                <td>Nama</td>
                     <td>:</td>
-                    <td><input type="text" name="nim" id=""value="<?php echo $u->nim?>"></td>
+                    <td><input type="text" name="nama" id=""value="<?php echo $u->nama?>"></td>
                 <tr>
                     <td>Kelas</td>
                     <td>:</td>

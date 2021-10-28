@@ -13,12 +13,12 @@
         <center>
             <table>
                 <tr>
-                    <td>Nama</td>
+                    <td>NIM</td>
                     <td>:</td>
                     <td><input type="text" name="nama" id=""></td>
                 </tr>
                 <tr>
-                    <td>Nim</td>
+                    <td>Nama</td>
                     <td>:</td>
                     <td><input type="text" name="nim" id=""></td>
                 </tr>
