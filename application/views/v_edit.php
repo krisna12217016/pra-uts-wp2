@@ -1,12 +1,15 @@
 <html>
     <head>
         <title>Pra UTS</title>
+        <link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css">
     </head>
     <body>
+    <div id="wrapper">
     <center>
         <h1>PRA UTS</h1>
         <h3>Form Edit Data</h3>
     </center>
+    <div class="clear"></div>
     <?php foreach ($user as $u) { ?>
     <form action="<?php echo base_url() . 'crud/update' ; ?>" method="post">
         <center>

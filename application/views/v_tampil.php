@@ -1,12 +1,15 @@
 <html>
 <head>
         <title>Pra UTS</title>
+        <link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css">
 </head>
 <body>
+<div id="wrapper">
     <center><h1>PRA UTS</h1>
             <h3>Membuat CRUD dengan CodeIgniter</h3>
     </center>
-    <center><?php echo anchor('crud/tambah' , 'Tambah Data'); ?></center>
+    <div class="clear"></div>
+    <center> <?php echo anchor('crud/tambah' , 'Tambah Data'); ?> </center>
     <table style="margin: 20px auto;" border="1">
         <tr>
             <th>No</th>

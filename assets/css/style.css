@@ -1,0 +1,10 @@
+body {
+    background: #eee;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#wrapper {
+    color: rgb(60, 4, 214);
+    margin: 20px auto;  
+}

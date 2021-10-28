@@ -1,11 +1,14 @@
 <html>
     <head>
         <title>Pra UST</title>
+        <link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css">
     </head>
+    <div id="wrapper">
     <center>
         <h1>PRA UTS</h1>
         <h3>Form Input Data Baru</h3>
     </center>
+    <div class="clear"></div>
     <form action="<?php echo base_url() . 'crud/tambah_aksi' ; ?>" method="post">
         <center>
             <table>
